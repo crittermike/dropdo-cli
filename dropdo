@@ -1,0 +1,6 @@
+#! /bin/bash 
+LINK=$(curl -F "file=@$1" http://localhost:8000/api/v1)
+echo http://dropdo$LINK
+if command -v xclip &>/dev/null; then
+  echo http://dropdo.com$LINK | xclip -i -selection clipboard
+fi
