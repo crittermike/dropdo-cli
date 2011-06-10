@@ -5,7 +5,7 @@
 - Download the "dropdo" script
 - Make it executable:
 
-    $ chmod o+x ./dropdo
+      $ chmod o+x ./dropdo
 - Move the script to /usr/local/bin/
 
 ### Usage
